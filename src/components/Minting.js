@@ -180,8 +180,8 @@ export default function Minting() {
     return (
         <div className="flex flex-col-reverse md:flex-row-reverse md:items-center md:gap-32 gap-10">
             <div className="mb-36 md:mb-0 mt-4 md:mt-4 flex-1">
-                <h1 className="font-bold text-3xl md:text-7xl text-center md:text-center">
-                    <span>Ape  <span className="text-blue-300"> Mint</span></span>
+                <h1 className="font-bold text-3xl md:text-6xl text-center md:text-center">
+                    <span>Tripping Ape Yacht Tribe  <span className="text-blue-300"> Mint</span></span>
                 </h1>
                 <div className="w-full bg-white text-slate-800 mt-6 px-6 py-5 rounded-xl">
                     <div className="flex justify-between">
@@ -311,7 +311,7 @@ export default function Minting() {
                     </>
                 )}
             </div>
-            <img src={mintingImage} alt="Hero_Image" className="rounded-xl md:w-[50%] flex-1" />
+            <img src={mintingImage} alt="Hero_Image" className="rounded-xl md:w-[50%] flex-1 w-80 h-80 md:h-auto m-auto" />
 
         </div>
     )
